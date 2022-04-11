@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script defer src="movies.js"></script>
+    <script type="module" defer src="script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+
+    <title>Film Finder</title>
+</head>
+<body>
+    <h1>Film finder</h1>
+    <nav class="filter">
+        <div class="filter__buttons">
+            <input type="radio" id="new-movies" name="film-filter" value="new-movies">
+            <label for="new-movies">Latest movies, 2014 or newer</label>
+        </div>
+        <div class="filter__buttons">
+            <input type="radio" id="avengers-movies" name="film-filter" value="avengers-movies">
+            <label for="avengers-movies">Avengers movies</label>
+        </div>
+        <div class="filter__buttons">
+            <input type="radio" id="xmen-movies" name="film-filter" value="xmen-movies">
+            <label for="xmen-movies">X-Men movies</label>
+        </div>
+        <div class="filter__buttons">
+            <input type="radio" id="princess-movies" name="film-filter" value="princess-movies">
+            <label for="princess-movies">Princess movies</label>
+        </div>
+        <div class="filter__buttons">
+            <input type="radio" id="batman-movies" name="film-filter" value="batman-movies">
+            <label for="batman-movies">Batman movies</label>
+        </div>
+    </nav>
+    <div class="container">
+        <ul class="container__movielist" id="movielist">
+        </ul>
+    </div>
+</body>
+</html>
