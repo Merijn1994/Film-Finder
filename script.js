@@ -1,5 +1,3 @@
-import { movies } from './movies.js';
-
 // Functions to add and remove all movies
 
 const parentMovielist = document.getElementById("movielist");
